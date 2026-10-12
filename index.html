@@ -10,6 +10,7 @@
 <body>
 <nav>
     <h2>Kaviya Portfolio</h2>
+
     <ul>
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
@@ -18,22 +19,69 @@
     </ul>
 </nav>
 
-<section id="about">
-    <h1>Hi, I'm Kaviya!</h1>
-    <h2>Aspiring Frontend Developer</h2>
-    <p>
-        I am an Electronics and Communication Engineering
-        student learning web development.
-    </p>
-</section>
+<section class="hero" id="home">
+  <div class="hero-content">
+    <p class="hero-tag">HELLO, I'M</p>
 
+    <h1>Kaviya <span>M</span></h1>
+
+    <h2>Electronics &amp; Communication Engineering Student</h2>
+
+    <p class="hero-description">
+      Embedded Systems &amp; IoT Enthusiast | Exploring Web Development.
+      I enjoy learning new technologies and building practical projects.
+    </p>
+
+    <div class="hero-buttons">
+      <a href="#projects" class="btn primary">Explore My Projects</a>
+
+      <a href="./Kaviya_Resume.pdf" class="btn secondary" download>
+        Download Resume
+      </a>
+    </div>
+  </div>
+
+  <div class="hero-photo-wrap">
+    <div class="hero-glow"></div>
+    <img src="profile.jpg.jpeg"
+         alt="Kaviya's profile photo"
+         class="hero-photo">
+  </div>
+</section>
 <section id="skills">
     <h2>My Skills</h2>
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Communication</li>
-    </ul>
+
+    <div class="skills-grid">
+        <div class="skill-card">
+            <h3>Electronics</h3>
+            <p>Electronic Circuits, Digital Electronics</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>Embedded Systems</h3>
+            <p>Arduino, ESP32, Microcontrollers</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>Internet of Things</h3>
+            <p>IoT Projects, Sensors, Automation</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>Web Development</h3>
+            <p>HTML, CSS, JavaScript (Learning)</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>Communication</h3>
+            <p>Teamwork, Presentation, Problem Solving</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>Tools</h3>
+            <p>VS Code, Git, GitHub</p>
+        </div>
+    </div>
 </section>
 <section id="projects">
     <h2>My Projects</h2>
@@ -42,11 +90,30 @@
         <div class="project-card">
             <h3>Anti-Sleep Detection System</h3>
             <p>
-                An engineering project designed to detect
-                driver drowsiness and improve road safety.
+The Anti-Sleep Detection System is an intelligent safety system designed to detect driver drowsiness and help prevent road accidents. It monitors the driver's eye movements and alertness to identify signs of sleep or fatigue. When drowsiness is detected, the system activates an alert, such as a buzzer, to warn the driver and improve road safety.
+
+Key Features
+- Detects driver drowsiness and sleepiness.
+- Provides an instant alert using a buzzer.
+- Helps reduce accidents caused by driver fatigue.
+- Supports real-time monitoring for improved safety.
+
+Technologies Used: Arduino, Sensors, Embedded Systems, and C/C++ 
+
+Project Objective: To develop a cost-effective safety system that improves driver alertness and helps prevent accidents caused by drowsiness.
+
+Domain: Embedded Systems | Electronics and Communication Engineering | Road Safety
             </p>
             <span>Electronics Project</span>
         </div>
+        <div class="project-card"
+            <h>Smart Helmet and Rover-Based Underground Mine Safety System</h3>
+            <p>
+                Developing a smart worker safety system that integrates GPS-enabled helmets with a mobile rover for underground mine monitoring. The helmets are designed to track the locations of approximately 10 workers and share their GPS data with the rover. The rover monitors environmental conditions such as toxic gas levels, temperature, and humidity to help identify potential hazards. The system aims to improve worker tracking, emergency awareness, and safety in underground mining environments.
+
+Technologies: Embedded Systems, GPS, Sensors, IoT, ESP32
+            </p>
+    </div>
 
         <div class="project-card">
             <h3>Personal Portfolio Website</h3>
@@ -61,22 +128,26 @@
 
 <section id="contact">
     <h2>Contact Me</h2>
-    <p>
-        I am interested in frontend development
-        and learning new technologies.
-    </p>
+   
+<div class="contact-buttons">
+  <a href="kaviyamani711@gmail.com" class="contact-btn email-btn">
+    Email Me
+  </a>
 
-    <a class="contact-button"
-       href="kaviyamani711@gmail.com">
-        Email Me
-    </a>
-    <br><br>
-    <a class="contact-button"
-       href="https://www.linkedin.com/"
-       target="_blank"
-       rel="noopener noreferrer">
-        LinkedIn
-    </a>
+  <a href="https://www.linkedin.com/in/your-profile/"
+     target="_blank"
+     rel="noopener noreferrer"
+     class="contact-btn linkedin-btn">
+    LinkedIn
+  </a>
+  
+<a href="Kaviya_resume.pdf.pdf"
+   class="btn primary"
+   download>
+  <span>↓</span> Download Resume
+</a>
+
+</div>
 </section>
 
 </section>
